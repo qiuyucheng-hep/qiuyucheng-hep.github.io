@@ -95,7 +95,7 @@
     top: -8px;
   }
   &:after {
-    top: 4px;
+    top: 2px;
   }
   &.btn-close {
     background: none;
@@ -135,7 +135,7 @@
 #header {
   border-bottom:  1px solid rgba(0,0,0,0.14);
   text-align: center;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
   height: 5em;
   position: relative;
   a {
@@ -148,6 +148,7 @@
   h1 {
     font-size: 2em;
     padding-bottom: 0;
+    padding-top: 0;
     span {
       color: $text-light-color;
       font-weight: 300;
@@ -193,6 +194,48 @@
     font-weight: 200;
   }
 }
+
+.author-display {
+  display: block;
+  color: lighten($text-color, 25%);
+  line-height: 1.3em; 
+  margin-bottom: 0.4em; /* 24px/16px */
+  font-weight: 200;
+  @media (min-width: 940px) {
+    display: block;
+    color: lighten($text-color, 25%);
+    line-height: 1.3em;
+    margin-bottom: 0.1em; /* 24px/18px */
+    font-weight: 200;
+  }
+}
+
+.paper-title {
+  line-height: 1.5em; 
+  margin-bottom: 0.4em; /* 24px/16px */
+  font-weight: 500;
+  font-size: 1.3em;
+  @media (min-width: 940px) {
+    line-height: 1.5em;
+    margin-bottom: 0.1em; /* 24px/18px */
+    font-weight: 500;
+    font-size: 1.3em;
+  }
+}
+
+.abs-display {
+  line-height: 0.5em; 
+  margin-bottom: 0em; /* 24px/16px */
+  font-size: 1em;
+  @media (min-width: 940px) {
+    line-height: 0.5em;
+    margin-bottom: 0em; /* 24px/18px */
+    font-size: 1em;
+  }
+}
+
+
+
 
 img {
   max-width: 100%;

@@ -37,3 +37,11 @@ version: "1.0.0"
 custom_header: false
 custom_nav_footer: false
 reverse: false
+
+collections:
+   publications:
+      permalink: /example1/:path/
+      paginate: 5
+      paginate_path: "/publication/page:num/"
+      
+

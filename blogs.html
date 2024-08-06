@@ -1,12 +1,14 @@
 ---
 layout: page
 title: Blogs
-description: This page contains posts.
+Description: This page contains blogs.
 ---
+
+
 <!-- Posts -->
 <ul id="posts">
 
-	{% for post in paginator.posts %}
+	{% for post in site.posts %}
 
 	  <li class="post">
 	  	<h2><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{%if post.header %}{{ post.header }}{% else %}{{ post.title }}{% endif %}</a></h2>
