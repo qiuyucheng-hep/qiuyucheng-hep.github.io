@@ -40,6 +40,6 @@ reverse: false
 
 collections:
    publications:
-
+      output: true
       
 
