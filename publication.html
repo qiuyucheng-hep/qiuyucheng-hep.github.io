@@ -45,7 +45,7 @@ a {
 
 <ul  style="list-style-type:circle;">
 
-   {% for publication in site.publications%}
+   {% for publication in site.publications reversed%}
     <li> 
     <b class="paper-title">{{ publication.title }}</b> <a href="https://arxiv.org/abs/{{publication.arXiv}}" > [arXiv: {{publication.arXiv}}] </a> 
      <i class="author-display">{{ publication.authors }}</i>

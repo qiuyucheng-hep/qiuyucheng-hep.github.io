@@ -40,8 +40,6 @@ reverse: false
 
 collections:
    publications:
-      permalink: /example1/:path/
-      paginate: 5
-      paginate_path: "/publication/page:num/"
+
       
 
