@@ -1,0 +1,7 @@
+---
+title: Wiggly dilaton -- A landscape of spontaneously broken scale invariance
+authors: Sudhakantha Girmohanta, Yuichiro Nakai, Yu-Cheng Qiu, Zhihao Zhang
+arXiv: 2411.16304
+date: 2024-11-25
+---
+The dilaton emerges as a pseudo-Nambu-Goldstone boson (pNGB) associated with the spontaneous breaking of scale invariance in a nearly conformal field theory (CFT). We show the existence of a wiggly dilaton potential that contains multiple vacuum solutions in a five-dimensional (5D) holographic formulation. The wiggly feature originates from boundary potentials of a 5D axion-like scalar field, whose naturally small bulk mass parameter corresponds to a marginally-relevant deformation of the dual CFT. Depending on the energy density of a boundary 3-brane, our model can provide a relaxion potential or generate a light dilaton. However, an extremely light dilaton requires fine-tuning.
